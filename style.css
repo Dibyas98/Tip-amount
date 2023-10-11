@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100vw;
+    background-image: url(./Assects/gettyimages-1325602477-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1% 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 32%;;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 1%;
+}
+.container h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.container label{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.container button{
+    height: 10%;
+    font-size: 1.5rem;
+    background-color: brown;
+    color: white;
+    border: none;
+}
